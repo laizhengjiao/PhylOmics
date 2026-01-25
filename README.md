@@ -15,9 +15,9 @@
      | )      | )   ( |   | |   | (____/\| (___) || )   ( |___) (___| (____/\/\____) |
      |/       |/     \|   \_/   (_______/(_______)|/     \|\_______/(_______/\_______)
 
-                            PhylOmics v1.0
-                     Phylogenomic Analysis Pipeline
-```
+                                      PhylOmics v1.0
+                               Phylogenomic Analysis Pipeline
+``` 
 
 ---
 
