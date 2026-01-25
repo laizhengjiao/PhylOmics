@@ -53,16 +53,16 @@ Independent Tidy Option (RUN FIRST BEFORE ANALYSIS):
                     Supports: *_1/_2.fq, *_1/_2.fastq, *_1/_2.fq.gz, *_1/_2.fastq.gz
 
 Usage Examples:
-  # 1. Tidy first (independent) - organize unstructured paired reads into sample folders
+   1. Tidy first (independent) - organize unstructured paired reads into sample folders
        phylomics -tidy /data/raw_seq_data
 
-  # 2. Mode1: Transcriptome assembly (default rnaspades) with custom threads/memory
+   2. Mode1: Transcriptome assembly (default rnaspades) with custom threads/memory
        phylomics -mode 1 -rnaf /data/processed_rna_seq -t 16 -m 64 -cleanfiles
 
-  # 3. Mode2: RNA only assembly (default rnaspades) + BUSCO db download + batch BUSCO analysis, custom threads
+   3. Mode2: RNA only assembly (default rnaspades) + BUSCO db download + batch BUSCO analysis, custom threads
        phylomics -mode 2 -rnaf /data/processed_rna_seq -clade piroplasmida -t 16 -m 64
 
-  # 4. Mode3: Genome assembly + BUSCO (piroplasmida clade) with default parameters
+   4. Mode3: Genome assembly + BUSCO (piroplasmida clade) with default parameters
        phylomics -mode 3 -dnaf /data/processed_dna_seq -clade piroplasmida
 
 Main Invoked Software
