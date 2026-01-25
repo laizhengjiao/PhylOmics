@@ -62,7 +62,7 @@ All input sequencing files **MUST** follow the standard directory structure:
   - `.fq.gz`
   - `.fastq.gz`
 
-If all paired-end files are located directly in the root directory (no subfolders), **run `-tidy` first** to organize them automatically.
+If all paired-end sequencing files are located directly in the main directory (no subfolders), **run `phylomics -tidy <directory>` first** to organize them automatically.
 
 ---
 
@@ -73,12 +73,10 @@ If all paired-end files are located directly in the root directory (no subfolder
           QC → Assembly → CD-HIT → TransDecoder → CDS / PEP
 
 -mode 2   RNA only:
-          QC → Assembly → CD-HIT →
-          rna_onlyass_result/ → BUSCO single-copy gene extraction
+          QC → Assembly → CD-HIT → rna_onlyass_result/ → BUSCO single-copy gene extraction
 
 -mode 3   DNA only:
-          QC → Assembly (SPAdes only) → CD-HIT →
-          genome_assemble_result/ → BUSCO single-copy gene extraction
+          QC → Assembly (SPAdes only) → CD-HIT → genome_assemble_result/ → BUSCO single-copy gene extraction
 ```
 
 ---
