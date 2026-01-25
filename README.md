@@ -193,13 +193,13 @@ phylomics -mode 3 \
 | Trinity | v2.15.2 | Grabherr et al. (2011) https://doi.org/10.1038/nbt.1883 |
 | BUSCO | v5.8.3 | Tegenfeldt et al. (2025) https://doi.org/10.1093/nar/gkae987 |
 | CD-HIT | v4.8.1 | Fu et al. (2012) https://doi.org/10.1093/bioinformatics/bts565 |
-| TransDecoder | — | Haas BJ |
+| TransDecoder | — | Haas BJ https://github.com/TransDecoder/TransDecoder|
 | MAFFT | v7.525 | Katoh & Standley (2013) https://doi.org/10.1093/molbev/mst010 |
-| trimAl | v1.5 | Capella-Gutiérrez et al. (2009) |
-| IQ-TREE | v3.0.1 | Wong et al. (2025) |
-| FASconCAT-G | v1.06.1 | Kück & Longo (2014) |
-| ASTRAL | v1.23.4.6 | Zhang et al. (2025) |
-| OrthoFinder | v3.1.2 | Emms et al. (2025) |
+| trimAl | v1.5 | Capella-Gutiérrez et al. (2009) https://doi.org/10.1093/bioinformatics/btp348|
+| IQ-TREE | v3.0.1 | Wong et al. (2025) https://doi.org/10.32942/X2P62N|
+| FASconCAT-G | v1.06.1 | Kück & Longo (2014) https://doi.org/10.1186/s12983-014-0081-x|
+| ASTRAL | v1.23.4.6 | Zhang et al. (2025) https://doi.org/10.1093/molbev/msaf172|
+| OrthoFinder | v3.1.2 | Emms et al. (2025) https://doi.org/10.1101/2025.07.15.664860|
 
 ---
 
