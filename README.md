@@ -53,13 +53,21 @@ phylomics -mode <1|2|3> [Required Options] [Optional Options]
 All input sequencing files **MUST** follow the standard directory structure:
 
 
-folder_specified_by_rnaf/dnaf/  ────After Processing───→  folder_specified_by_rnaf/dnaf/
-├── sample1_1.fq.gz             │              ├── sample1/
-├── sample1_2.fq.gz             │              │   ├── sample1_1.fq.gz
-├── sample2_1.fq.gz             │              │   └── sample1_2.fq.gz
-└── sample2_2.fq.gz             │              └── sample2/
-                                │                  ├── sample2_1.fq.gz
-                                │                  └── sample2_2.fq.gz
+Original directory structure (rnaf/dnaf in input):
+folder_specified_by_rnaf_dnaf/
+├── sample1_1.fq.gz
+├── sample1_2.fq.gz
+├── sample2_1.fq.gz
+└── sample2_2.fq.gz
+
+Reorganized directory structure (after grouping FASTQ files by sample):
+folder_specified_by_rnaf_dnaf/
+├── sample1/
+│   ├── sample1_1.fq.gz
+│   └── sample1_2.fq.gz
+└── sample2/
+    ├── sample2_1.fq.gz
+    └── sample2_2.fq.gz
 
 
 - Each sample must be placed in an **independent subfolder**
