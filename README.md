@@ -52,18 +52,15 @@ phylomics -mode <1|2|3> [Required Options] [Optional Options]
 
 All input sequencing files **MUST** follow the standard directory structure:
 
-Data Structure Transformation
-┌─────────────────────────────────────────┐   ┌─────────────────────────────────────────┐
-│ folder_specified_by_rnaf/dnaf/          │───│ folder_specified_by_rnaf/dnaf/          │
-│ (Before Processing / Flat Structure)    │   │ (After Processing / Grouped by Sample)  │
-├─────────────────────────────────────────┤   ├─────────────────────────────────────────┤
-│ ├── sample1_1.fq.gz                     │   │ ├── sample1/                            │
-│ ├── sample1_2.fq.gz                     │   │ │   ├── sample1_1.fq.gz                 │
-│ ├── sample2_1.fq.gz                     │   │ │   └── sample1_2.fq.gz                 │
-│ └── sample2_2.fq.gz                     │   │ └── sample2/                            │
-│                                         │   │     ├── sample2_1.fq.gz                 │
-│                                         │   │     └── sample2_2.fq.gz                 │
-└─────────────────────────────────────────┘   └─────────────────────────────────────────┘
+
+folder_specified_by_rnaf/dnaf/  ────After Processing───→  folder_specified_by_rnaf/dnaf/
+├── sample1_1.fq.gz             │              ├── sample1/
+├── sample1_2.fq.gz             │              │   ├── sample1_1.fq.gz
+├── sample2_1.fq.gz             │              │   └── sample1_2.fq.gz
+└── sample2_2.fq.gz             │              └── sample2/
+                                │                  ├── sample2_1.fq.gz
+                                │                  └── sample2_2.fq.gz
+
 
 - Each sample must be placed in an **independent subfolder**
 - Paired-end reads must have explicit `_1` / `_2` suffix
