@@ -23,7 +23,7 @@
 
 ## Overview
 
-**PHYLOMICS** is an integrated phylogenomic analysis pipeline designed for **multi-omics sequencing data**, including:
+**phylomics** is an integrated phylogenomic analysis pipeline designed for **multi-omics sequencing data**, including:
 
 - Genome sequencing (DNA)
 - Transcriptome sequencing (RNA)
@@ -48,9 +48,18 @@ phylomics -mode <1|2|3> [Required Options] [Optional Options]
 
 ---
 
-## CRITICAL PRE-ANALYSIS REQUIREMENT
+## Criticle pre-processing requirment
 
 All input sequencing files **MUST** follow the standard directory structure:
+
+<!-- folder_specified_by_rnaf/dnaf -->                             <!-- folder_specified_by_rnaf/dnaf -->
+<!-- |_sample1_1.fq.gz -->                                         <!-- sample1 -->
+<!-- |_sample1_2.fq.gz -->            <!-- ----->>>>> -->          <!--   |_sample1_1.fq.gz -->
+<!-- |_sample2_1.fq.gz -->                                         <!--   |_sample1_2.fq.gz -->
+<!-- |_sample2_2.fq.gz -->                                         <!-- sample2 -->
+                                                                   <!--   |_sample2_1.fq.gz -->
+                                                                   <!--   |_sample2_2.fq.gz -->
+
 
 - Each sample must be placed in an **independent subfolder**
 - Paired-end reads must have explicit `_1` / `_2` suffix
