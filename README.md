@@ -52,6 +52,16 @@ phylomics -mode <1|2|3> [Required Options] [Optional Options]
 
 All input sequencing files **MUST** follow the standard directory structure:
 
+- Each sample must be placed in an **independent subfolder**
+- Paired-end reads must have explicit `_1` / `_2` suffix
+- Supported formats:
+  - `.fq`
+  - `.fastq`
+  - `.fq.gz`
+  - `.fastq.gz`
+
+If all paired-end sequencing files are located directly in the main directory (no subfolders), **run `phylomics -tidy <directory>` first** to organize them automatically.
+
 ```text
 Original directory structure (rnaf/dnaf input):
 
@@ -71,17 +81,6 @@ folder_specified_by_rnaf_dnaf/
     ├── sample2_1.fq.gz
     └── sample2_2.fq.gz
 ```
-
-
-- Each sample must be placed in an **independent subfolder**
-- Paired-end reads must have explicit `_1` / `_2` suffix
-- Supported formats:
-  - `.fq`
-  - `.fastq`
-  - `.fq.gz`
-  - `.fastq.gz`
-
-If all paired-end sequencing files are located directly in the main directory (no subfolders), **run `phylomics -tidy <directory>` first** to organize them automatically.
 
 ---
 
