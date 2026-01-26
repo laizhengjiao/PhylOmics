@@ -1,6 +1,6 @@
 # PhylOmics
 
-## **Phylogenomics analysis pipeline for multi-omics sequencing data**
+**Phylogenomics analysis pipeline for multi-omics sequencing data**
 
 ---
 
@@ -62,7 +62,7 @@ All input sequencing files **MUST** follow the standard directory structure:
 
 If all paired-end sequencing files are located directly in the main directory (no subfolders), **run `phylomics -tidy folder_specified_by_rnaf_dnaf` first** to organize them automatically.
 
-```text
+```
 Original directory structure (rnaf/dnaf input):
 
 folder_specified_by_rnaf_dnaf/
