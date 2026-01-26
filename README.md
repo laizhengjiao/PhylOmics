@@ -60,7 +60,7 @@ All input sequencing files **MUST** follow the standard directory structure:
   - `.fq.gz`
   - `.fastq.gz`
 
-If all paired-end sequencing files are located directly in the main directory (no subfolders), **run `phylomics -tidy folder_specified_by_rnaf_dnaf` first** to organize them automatically.
+If all paired-end sequencing files are located directly in the main directory (no subfolders), run **`phylomics -tidy folder_specified_by_rnaf_dnaf` first** to organize them automatically.
 
 ```
 Original directory structure (rnaf/dnaf input):
@@ -122,7 +122,7 @@ busco --list-datasets
 ```
 -t <num>        Number of threads (default: 20)
 -m <num>        Maximum memory in GB (default: 80)
--cleanfiles     Remove intermediate assembly files (default: OFF)
+-cleanfiles     Remove intermediate assembly files (default: off)
 ```
 
 ---
@@ -138,22 +138,6 @@ busco --list-datasets
 - Supported options:
   - `spades`
   - `trinity`
-
----
-
-## Independent Tidy Option (Run BEFORE Analysis)
-
-```
--tidy <dir>
-```
-
-- Organize unstructured paired-end reads into sample subfolders
-- **No other parameters allowed**
-- Supported filename patterns:
-  - `*_1/_2.fq`
-  - `*_1/_2.fastq`
-  - `*_1/_2.fq.gz`
-  - `*_1/_2.fastq.gz`
 
 ---
 
