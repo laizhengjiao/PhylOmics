@@ -52,13 +52,16 @@ phylomics -mode <1|2|3> [Required Options] [Optional Options]
 
 All input sequencing files **MUST** follow the standard directory structure:
 
-Original directory structure (rnaf/dnaf input):
 ```text
+Original directory structure (rnaf/dnaf input):
+
 folder_specified_by_rnaf_dnaf/
 ├── sample1_1.fq.gz
 ├── sample1_2.fq.gz
 ├── sample2_1.fq.gz
 └── sample2_2.fq.gz
+
+after reorganizing
 
 folder_specified_by_rnaf_dnaf/
 ├── sample1/
