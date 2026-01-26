@@ -61,7 +61,7 @@ folder_specified_by_rnaf_dnaf/
 ├── sample2_1.fq.gz
 └── sample2_2.fq.gz
 
-after reorganizing
+After reorganizing
 
 folder_specified_by_rnaf_dnaf/
 ├── sample1/
