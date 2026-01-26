@@ -60,7 +60,7 @@ All input sequencing files **MUST** follow the standard directory structure:
   - `.fq.gz`
   - `.fastq.gz`
 
-If all paired-end sequencing files are located directly in the main directory (no subfolders), **run `phylomics -tidy <directory>` first** to organize them automatically.
+If all paired-end sequencing files are located directly in the main directory (no subfolders), **run `phylomics -tidy folder_specified_by_rnaf_dnaf` first** to organize them automatically.
 
 ```text
 Original directory structure (rnaf/dnaf input):
