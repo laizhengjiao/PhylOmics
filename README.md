@@ -82,6 +82,8 @@ folder_specified_by_rnaf_dnaf/
     └── sample2_2.fq.gz
 ```
 
+If the raw paired-end sequencing data stored in the **`folder_specified_by_rnaf_dnaf`** directory is downloaded from the NCBI SRA database, we recommend using the **`srr2organism`** script to batch convert accession numbers to scientific species names. If the directory contains your own sequencing data, we also suggest renaming the sequencing files with scientific species names, using an underscore to separate the genus name from the specific epithet.
+
 ---
 
 ## Core Modes
