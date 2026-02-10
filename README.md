@@ -210,9 +210,9 @@ The following scripts are integrated into the environment:
 | Script | Version | Reference |
 |--------|--------|----------|
 | srr2organism | —  | Jiao (2026a) https://doi.org/10.5281/zenodo.18242837 |
-| batch_alignment | —  | Jiao (2026b) https://doi.org/10.5281/zenodo.18345651 |
-| batch_trimal | — | Jiao (2026b) https://doi.org/10.5281/zenodo.18345651 |
-| batch_iqtree | —  | Jiao (2026b) https://doi.org/10.5281/zenodo.18345651 |
+| batch_alignment | —  | Jiao (2026b) https://doi.org/10.5281/zenodo.18397979 |
+| batch_trimal | — | Jiao (2026b) https://doi.org/10.5281/zenodo.18397979 |
+| batch_iqtree | —  | Jiao (2026b) https://doi.org/10.5281/zenodo.18397979 |
 | SRASeqFetcher | —  | Jiao (2026c) https://doi.org/10.5281/zenodo.18281342 |
 | FastqMerger | —  | Jiao (2026d) https://doi.org/10.5281/zenodo.18367708 |
 
