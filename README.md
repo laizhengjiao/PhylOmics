@@ -189,7 +189,7 @@ phylomics -mode 3 \
 
 | Software | Version | Reference |
 |--------|--------|----------|
-| fastp | v1.1.0 | Chen (2025) https://doi.org/10.1002/imt2.70078 |
+| [fastp](https://doi.org/10.1002/imt2.70078) | v1.1.0 | Chen (2025) https://doi.org/10.1002/imt2.70078 |
 | SPAdes | v4.2.0 | Prjibelski *et al.* (2020) https://doi.org/10.1002/cpbi.102 |
 | rnaSPAdes | — | Bushmanova *et al.* (2019) https://doi.org/10.1093/gigascience/giz100 |
 | Trinity | v2.15.2 | Grabherr *et al.* (2011) https://doi.org/10.1038/nbt.1883 |
