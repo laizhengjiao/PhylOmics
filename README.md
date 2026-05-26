@@ -192,7 +192,6 @@ phylomics -mode 3 \
 | [fastp](https://doi.org/10.1002/imt2.70078) | v1.1.0 | Chen (2025) https://doi.org/10.1002/imt2.70078 |
 | [SPAdes](https://doi.org/10.1002/cpbi.102) | v4.2.0 | Prjibelski *et al.* (2020) https://doi.org/10.1002/cpbi.102 |
 | [rnaSPAdes](https://doi.org/10.1093/gigascience/giz100) | — | Bushmanova *et al.* (2019) https://doi.org/10.1093/gigascience/giz100 |
-| [Trinity](https://doi.org/10.1038/nbt.1883) | v2.15.2 | Grabherr *et al.* (2011) https://doi.org/10.1038/nbt.1883 |
 | [BUSCO](https://doi.org/10.1093/nar/gkae987) | v5.8.3 | Tegenfeldt *et al.* (2025) https://doi.org/10.1093/nar/gkae987 |
 | [CD-HIT](https://doi.org/10.1093/bioinformatics/bts565) | v4.8.1 | Fu *et al.* (2012) https://doi.org/10.1093/bioinformatics/bts565 |
 | [TransDecoder](https://github.com/TransDecoder/TransDecoder) | — | Haas BJ https://github.com/TransDecoder/TransDecoder|
