@@ -135,9 +135,6 @@ busco --list-datasets
 
 - Transcriptome assembler
 - Default: `spades` (rnaSPAdes)
-- Supported options:
-  - `spades`
-  - `trinity`
 
 ---
 
